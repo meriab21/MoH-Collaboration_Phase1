@@ -16,7 +16,7 @@
   "singleVisualGroup": {
     "displayName": "line selected btn",
     "groupMode": 0,
-    "isHidden": false
+    "isHidden": true
   },
   "parentGroupName": "57ba9c38d5fa858219c8"
 }

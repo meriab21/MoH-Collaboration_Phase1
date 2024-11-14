@@ -23,15 +23,7 @@
     }
   },
   "options": {
-    "targetVisualNames": [
-      "e6a326c17d6a9a29dbc4",
-      "d0286711f9014a9bf3a2",
-      "210403910e4b0e0263e1",
-      "2740341fcddacbe2f2df",
-      "c7f02bc18600adaea06c",
-      "08a22b31fe722581535a",
-      "5985baf21f06aa0b2933"
-    ],
+    "targetVisualNames": [],
     "suppressData": true
   }
 }

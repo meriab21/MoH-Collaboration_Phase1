@@ -1,0 +1,30 @@
+{
+  "displayName": "HIV_National-TP-Bar",
+  "name": "05af3a6f7f04b0240916",
+  "explorationState": {
+    "version": "1.11",
+    "activeSection": "5efa66aeb3c0cc2ab143",
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "options": {
+    "targetVisualNames": [
+      "269b1a5d9f6747bdb1a7"
+    ]
+  }
+}
