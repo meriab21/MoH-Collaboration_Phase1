@@ -189,20 +189,7 @@
           },
           "Property": "eth_month_name"
         }
-      },
-      "sourceFieldParameters": [
-        {
-          "expr": {
-            "_kind": 2,
-            "source": {
-              "_kind": 0,
-              "entity": "period type"
-            },
-            "ref": "period type"
-          },
-          "displayName": "period type"
-        }
-      ]
+      }
     },
     {
       "displayName": "Quarterly",

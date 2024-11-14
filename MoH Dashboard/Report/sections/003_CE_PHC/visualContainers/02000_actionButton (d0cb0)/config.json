@@ -169,13 +169,6 @@
                   "Value": "4D"
                 }
               }
-            },
-            "width": {
-              "expr": {
-                "Literal": {
-                  "Value": "1D"
-                }
-              }
             }
           }
         }
