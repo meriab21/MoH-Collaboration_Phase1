@@ -20,6 +20,9 @@
         {
           "queryRef": "periods.eth_month_name",
           "active": true
+        },
+        {
+          "queryRef": "periods.eth_quarter"
         }
       ],
       "Y2": [
@@ -83,6 +86,18 @@
           },
           "Name": "periods.eth_month_name",
           "NativeReferenceName": "Monthly"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "p"
+              }
+            },
+            "Property": "eth_quarter"
+          },
+          "Name": "periods.eth_quarter",
+          "NativeReferenceName": "Quarterly"
         }
       ]
     },
@@ -90,7 +105,7 @@
       "Category": [
         {
           "index": 0,
-          "length": 1,
+          "length": 2,
           "expr": {
             "Column": {
               "Expression": {
@@ -107,6 +122,9 @@
     "columnProperties": {
       "periods.eth_month_name": {
         "displayName": "Monthly"
+      },
+      "periods.eth_quarter": {
+        "displayName": "Quarterly"
       }
     },
     "drillFilterOtherVisuals": true,

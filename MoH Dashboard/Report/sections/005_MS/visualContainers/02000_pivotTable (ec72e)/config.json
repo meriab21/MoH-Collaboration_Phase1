@@ -22,8 +22,7 @@
           "active": true
         },
         {
-          "queryRef": "org_units.Org unit hierachy.l2name",
-          "active": true
+          "queryRef": "org_units.Org unit hierachy.l2name"
         },
         {
           "queryRef": "org_units.Org unit hierachy.l3name"
@@ -240,86 +239,6 @@
         }
       ]
     },
-    "expansionStates": [
-      {
-        "roles": [
-          "Rows"
-        ],
-        "levels": [
-          {
-            "queryRefs": [
-              "org_units.Org unit hierachy.l1name"
-            ],
-            "isCollapsed": true,
-            "identityKeys": [
-              {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "org_units"
-                    }
-                  },
-                  "Property": "l1name"
-                }
-              }
-            ],
-            "isPinned": true
-          },
-          {
-            "queryRefs": [
-              "org_units.Org unit hierachy.l2name"
-            ],
-            "isCollapsed": true,
-            "isPinned": true
-          },
-          {
-            "queryRefs": [
-              "org_units.Org unit hierachy.l3name"
-            ],
-            "isCollapsed": true
-          },
-          {
-            "queryRefs": [
-              "org_units.Org unit hierachy.l4name"
-            ],
-            "isCollapsed": true
-          },
-          {
-            "queryRefs": [
-              "org_units.Org unit hierachy.l5name"
-            ],
-            "isCollapsed": true
-          },
-          {
-            "queryRefs": [
-              "org_units.Org unit hierachy.l6name"
-            ],
-            "isCollapsed": true
-          },
-          {
-            "queryRefs": [
-              "org_units.Org unit hierachy.l7name"
-            ],
-            "isCollapsed": true
-          }
-        ],
-        "root": {
-          "identityValues": null,
-          "children": [
-            {
-              "identityValues": [
-                {
-                  "Literal": {
-                    "Value": "'Federal Ministry Of Health'"
-                  }
-                }
-              ],
-              "isToggled": true
-            }
-          ]
-        }
-      }
-    ],
     "columnProperties": {
       "indicators_dim.ChangeFromZonal_Baseline": {
         "displayName": "Change vs zonal baseline"

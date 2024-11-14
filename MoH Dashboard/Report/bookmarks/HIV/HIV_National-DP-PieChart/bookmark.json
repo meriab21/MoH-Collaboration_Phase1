@@ -1,0 +1,28 @@
+{
+  "displayName": "HIV_National-DP-PieChart",
+  "name": "d0e456d77f6190d62100",
+  "explorationState": {
+    "version": "1.11",
+    "activeSection": "5efa66aeb3c0cc2ab143",
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "options": {
+    "targetVisualNames": []
+  }
+}

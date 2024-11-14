@@ -1,0 +1,67 @@
+{
+  "name": "ba4bd866c30e3e11880f",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 12.330379596038483,
+        "y": 0,
+        "z": 2000,
+        "width": 51.53846153846154,
+        "height": 56.92307692307692,
+        "tabOrder": 10008
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "image",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "imageUrl": {
+              "expr": {
+                "ResourcePackageItem": {
+                  "PackageName": "RegisteredResources",
+                  "PackageType": 1,
+                  "ItemName": "yellow2663085625114342.png"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "vcObjects": {
+      "lockAspect": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'yellow'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "parentGroupName": "c34296fc53643e04ff93",
+  "howCreated": "InsertVisualButton"
+}

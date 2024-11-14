@@ -16,6 +16,6 @@
   "singleVisualGroup": {
     "displayName": "N_PD charts tabs",
     "groupMode": 0,
-    "isHidden": true
+    "isHidden": false
   }
 }

@@ -1,0 +1,193 @@
+{
+  "name": "679c5366fb76f463ab65",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 581.88568932705209,
+        "y": 84.691729323308266,
+        "z": 3000,
+        "width": 565.89473684210532,
+        "height": 55.819548872180448,
+        "tabOrder": 3000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "slicer",
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "periods.Period hierarchy.eth_year",
+          "active": true
+        },
+        {
+          "queryRef": "periods.Period hierarchy.eth_quarter"
+        },
+        {
+          "queryRef": "periods.Period hierarchy.eth_month_name"
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "p",
+          "Entity": "periods",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "p"
+                  }
+                },
+                "Hierarchy": "Period hierarchy"
+              }
+            },
+            "Level": "eth_year"
+          },
+          "Name": "periods.Period hierarchy.eth_year",
+          "NativeReferenceName": "Period hierarchy eth_year"
+        },
+        {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "p"
+                  }
+                },
+                "Hierarchy": "Period hierarchy"
+              }
+            },
+            "Level": "eth_quarter"
+          },
+          "Name": "periods.Period hierarchy.eth_quarter",
+          "NativeReferenceName": "Period hierarchy eth_quarter"
+        },
+        {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "p"
+                  }
+                },
+                "Hierarchy": "Period hierarchy"
+              }
+            },
+            "Level": "eth_month_name"
+          },
+          "Name": "periods.Period hierarchy.eth_month_name",
+          "NativeReferenceName": "Period hierarchy eth_month_name"
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "header": [
+        {
+          "properties": {
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Period'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {}
+        }
+      ]
+    },
+    "vcObjects": {
+      "title": [
+        {
+          "properties": {
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'period slicer'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "parentGroupName": "243bfa32a6d6821ba2dd"
+}

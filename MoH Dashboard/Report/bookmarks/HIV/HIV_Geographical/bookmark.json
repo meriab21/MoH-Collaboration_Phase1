@@ -2,11 +2,43 @@
   "displayName": "HIV_Geographical",
   "name": "32f08b4975a731421269",
   "explorationState": {
-    "version": "1.3",
+    "version": "1.11",
     "activeSection": "5efa66aeb3c0cc2ab143",
-    "objects": {}
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "options": {
-    "targetVisualNames": []
+    "targetVisualNames": [
+      "e9f3be8b5a0afa1404ab",
+      "eedfdc9bd2bf9a8af5df",
+      "aa4de2a53c27a8789dc8",
+      "eb63e35f0f983ca2d846",
+      "529665a2b399420b9cb8",
+      "c34296fc53643e04ff93",
+      "157e76e5495f5f04b5ee",
+      "5d2cea5efb674304a50c",
+      "ba4bd866c30e3e11880f",
+      "4b8caa1f4cac75c20acc",
+      "41623c847309b1d6c9e3",
+      "20609281b9283b857ac2",
+      "348d46138429d34ba3ed",
+      "252098eaee672872902b",
+      "0e78697c5d2fec7260cf"
+    ]
   }
 }
