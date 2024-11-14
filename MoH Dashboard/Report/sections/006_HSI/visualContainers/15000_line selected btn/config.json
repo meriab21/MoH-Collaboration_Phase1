@@ -1,0 +1,22 @@
+{
+  "name": "24bf5bf4f1f3263fb889",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "height": 397.5,
+        "width": 1147.5,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "tabOrder": 15000
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "line selected btn",
+    "groupMode": 0,
+    "isHidden": true
+  },
+  "parentGroupName": "319aa69f6aee35f24e19"
+}
