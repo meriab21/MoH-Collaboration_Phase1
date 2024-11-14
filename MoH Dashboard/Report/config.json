@@ -7,7 +7,8 @@
       "type": 2
     }
   },
-  "activeSectionIndex": 6,
+  "activeSectionIndex": 8,
+
   "defaultDrillFilterOtherVisuals": true,
   "slowDataSourceSettings": {
     "isCrossHighlightingDisabled": false,
