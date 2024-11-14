@@ -1,0 +1,22 @@
+{
+  "name": "50dab7a6a75fbb03fa1c",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 1000,
+        "width": 1147.5,
+        "height": 397,
+        "tabOrder": 16000
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "Bar selected btn",
+    "groupMode": 0,
+    "isHidden": true
+  },
+  "parentGroupName": "2afb8b3c8bfd0413e707"
+}

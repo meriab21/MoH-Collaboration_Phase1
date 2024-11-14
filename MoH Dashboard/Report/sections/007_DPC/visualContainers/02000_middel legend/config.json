@@ -1,0 +1,21 @@
+{
+  "name": "68fc14ef41c76881971b",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 90.56288328782037,
+        "y": 344.1012005900252,
+        "z": 3000,
+        "width": 71,
+        "height": 99.404721329573135,
+        "tabOrder": 2000
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "middel legend",
+    "groupMode": 0
+  },
+  "parentGroupName": "890f098b8ee89ce8e519"
+}

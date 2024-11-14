@@ -15,9 +15,6 @@
   ],
   "singleVisual": {
     "visualType": "image",
-    "display": {
-      "mode": "hidden"
-    },
     "drillFilterOtherVisuals": true,
     "objects": {
       "general": [
@@ -105,15 +102,7 @@
       ],
       "border": [
         {
-          "properties": {
-            "width": {
-              "expr": {
-                "Literal": {
-                  "Value": "1D"
-                }
-              }
-            }
-          }
+          "properties": {}
         }
       ],
       "visualHeader": [

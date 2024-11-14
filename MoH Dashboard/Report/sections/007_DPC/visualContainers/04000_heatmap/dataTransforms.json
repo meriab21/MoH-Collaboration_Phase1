@@ -1,0 +1,195 @@
+{
+  "objects": {
+    "shape": [
+      {
+        "properties": {
+          "map": {
+            "geoJson": {
+              "type": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'packaged'"
+                  }
+                }
+              },
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Ethio 14 regions.json'"
+                  }
+                }
+              },
+              "content": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "Ethio_14_regions6417111252331995.json"
+                  }
+                }
+              }
+            }
+          },
+          "projectionEnum": {
+            "expr": {
+              "Literal": {
+                "Value": "'equirectangular'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "dataPoint": [
+      {
+        "properties": {
+          "fillRule": {
+            "linearGradient3": {
+              "min": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#920005'"
+                    }
+                  }
+                },
+                "value": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "0D"
+                    }
+                  }
+                }
+              },
+              "mid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#F4B300'"
+                    }
+                  }
+                },
+                "value": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "0.5D"
+                    }
+                  }
+                }
+              },
+              "max": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#63901B'"
+                    }
+                  }
+                },
+                "value": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "1D"
+                    }
+                  }
+                }
+              },
+              "nullColoringStrategy": {
+                "strategy": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'asZero'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "projectionOrdering": {
+    "Category": [
+      0
+    ],
+    "Value": [
+      1
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "org_unit_id",
+        "Name": "Regions.org_unit_id",
+        "Type": 2048
+      },
+      {
+        "Restatement": "performance_normalization",
+        "Name": "_measures.performance_normalization",
+        "Type": 1
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Category",
+          "Projection": 0,
+          "isActive": false
+        },
+        {
+          "Name": "Value",
+          "Projection": 1,
+          "isActive": false
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "org_unit_id",
+      "queryName": "Regions.org_unit_id",
+      "roles": {
+        "Category": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "Regions"
+            }
+          },
+          "Property": "org_unit_id"
+        }
+      }
+    },
+    {
+      "displayName": "performance_normalization",
+      "queryName": "_measures.performance_normalization",
+      "roles": {
+        "Value": true
+      },
+      "sort": 2,
+      "sortOrder": 0,
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Measure": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "_measures"
+            }
+          },
+          "Property": "performance_normalization"
+        }
+      }
+    }
+  ]
+}

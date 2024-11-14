@@ -1,0 +1,192 @@
+{
+  "Commands": [
+    {
+      "SemanticQueryDataShapeCommand": {
+        "Query": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "p",
+              "Entity": "periods",
+              "Type": 0
+            },
+            {
+              "Name": "p1",
+              "Entity": "PMD",
+              "Type": 0
+            },
+            {
+              "Name": "i",
+              "Entity": "indicators",
+              "Type": 0
+            },
+            {
+              "Name": "o",
+              "Entity": "org_units",
+              "Type": 0
+            }
+          ],
+          "Select": [
+            {
+              "HierarchyLevel": {
+                "Expression": {
+                  "Hierarchy": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "p"
+                      }
+                    },
+                    "Hierarchy": "Period hierarchy"
+                  }
+                },
+                "Level": "eth_year"
+              },
+              "Name": "periods.Period hierarchy.eth_year",
+              "NativeReferenceName": "Period hierarchy eth_year"
+            },
+            {
+              "HierarchyLevel": {
+                "Expression": {
+                  "Hierarchy": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "p"
+                      }
+                    },
+                    "Hierarchy": "Period hierarchy"
+                  }
+                },
+                "Level": "eth_quarter"
+              },
+              "Name": "periods.Period hierarchy.eth_quarter",
+              "NativeReferenceName": "Period hierarchy eth_quarter"
+            },
+            {
+              "HierarchyLevel": {
+                "Expression": {
+                  "Hierarchy": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "p"
+                      }
+                    },
+                    "Hierarchy": "Period hierarchy"
+                  }
+                },
+                "Level": "eth_month_name"
+              },
+              "Name": "periods.Period hierarchy.eth_month_name",
+              "NativeReferenceName": "Period hierarchy eth_month_name"
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "p1"
+                          }
+                        },
+                        "Property": "sub_section"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Pharmacy Service'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            },
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "i"
+                          }
+                        },
+                        "Property": "displayname"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'PMS_Pharmaceuticals wastage rate'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            },
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "o"
+                          }
+                        },
+                        "Property": "l1name"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Federal Ministry Of Health'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "Binding": {
+          "Primary": {
+            "Groupings": [
+              {
+                "Projections": [
+                  0
+                ],
+                "Subtotal": 1
+              }
+            ]
+          },
+          "DataReduction": {
+            "DataVolume": 3,
+            "Primary": {
+              "Window": {
+                "Count": 500
+              }
+            }
+          },
+          "IncludeEmptyGroups": true,
+          "Version": 1
+        },
+        "ExecutionMetricsKind": 1
+      }
+    }
+  ]
+}

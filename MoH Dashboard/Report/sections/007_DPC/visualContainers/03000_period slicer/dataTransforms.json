@@ -1,0 +1,177 @@
+{
+  "objects": {
+    "header": [
+      {
+        "properties": {
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
+              }
+            }
+          },
+          "text": {
+            "expr": {
+              "Literal": {
+                "Value": "'Period'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "data": [
+      {
+        "properties": {
+          "mode": {
+            "expr": {
+              "Literal": {
+                "Value": "'Dropdown'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "general": [
+      {
+        "properties": {}
+      }
+    ]
+  },
+  "projectionOrdering": {
+    "Values": [
+      0,
+      1,
+      2
+    ]
+  },
+  "projectionActiveItems": {
+    "Values": [
+      {
+        "queryRef": "periods.Period hierarchy.eth_year",
+        "suppressConcat": false
+      }
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "eth_year",
+        "Name": "periods.Period hierarchy.eth_year",
+        "Type": 2048
+      },
+      {
+        "Restatement": "eth_quarter",
+        "Name": "periods.Period hierarchy.eth_quarter",
+        "Type": 2048
+      },
+      {
+        "Restatement": "eth_month_name",
+        "Name": "periods.Period hierarchy.eth_month_name",
+        "Type": 2048
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Values",
+          "Projection": 0,
+          "isActive": true
+        },
+        {
+          "Name": "Values",
+          "Projection": 1,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 2,
+          "isActive": false
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "eth_year",
+      "queryName": "periods.Period hierarchy.eth_year",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "HierarchyLevel": {
+          "Expression": {
+            "Hierarchy": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "periods"
+                }
+              },
+              "Hierarchy": "Period hierarchy"
+            }
+          },
+          "Level": "eth_year"
+        }
+      }
+    },
+    {
+      "displayName": "eth_quarter",
+      "queryName": "periods.Period hierarchy.eth_quarter",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "HierarchyLevel": {
+          "Expression": {
+            "Hierarchy": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "periods"
+                }
+              },
+              "Hierarchy": "Period hierarchy"
+            }
+          },
+          "Level": "eth_quarter"
+        }
+      }
+    },
+    {
+      "displayName": "eth_month_name",
+      "queryName": "periods.Period hierarchy.eth_month_name",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "HierarchyLevel": {
+          "Expression": {
+            "Hierarchy": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "periods"
+                }
+              },
+              "Hierarchy": "Period hierarchy"
+            }
+          },
+          "Level": "eth_month_name"
+        }
+      }
+    }
+  ]
+}
