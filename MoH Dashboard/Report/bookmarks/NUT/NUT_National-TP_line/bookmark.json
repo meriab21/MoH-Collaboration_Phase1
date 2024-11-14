@@ -1,0 +1,32 @@
+{
+  "displayName": "NUT_National-TP_line",
+  "name": "060fe53b8ee4011d9dff",
+  "explorationState": {
+    "version": "1.11",
+    "activeSection": "c8688cd3ecc9a31a3d59",
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "options": {
+    "targetVisualNames": [
+      "2e767465dbbb17eeea55",
+      "8c7082c2f6ce2c3f9271"
+    ],
+    "suppressData": true
+  }
+}

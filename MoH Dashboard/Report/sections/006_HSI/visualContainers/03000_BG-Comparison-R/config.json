@@ -8,13 +8,16 @@
         "y": 0,
         "width": 1280,
         "height": 780,
-        "z": 1000,
+        "z": 2000,
         "tabOrder": 3000
       }
     }
   ],
   "singleVisual": {
     "visualType": "image",
+    "display": {
+      "mode": "hidden"
+    },
     "drillFilterOtherVisuals": true,
     "objects": {
       "general": [

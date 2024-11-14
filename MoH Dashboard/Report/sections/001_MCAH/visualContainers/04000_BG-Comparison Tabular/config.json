@@ -79,7 +79,15 @@
       ],
       "border": [
         {
-          "properties": {}
+          "properties": {
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            }
+          }
         }
       ]
     }

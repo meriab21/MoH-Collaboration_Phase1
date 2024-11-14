@@ -1,5 +1,5 @@
 {
-  "version": "5.50",
+  "version": "5.59",
   "themeCollection": {
     "baseTheme": {
       "name": "CY24SU10",
@@ -7,7 +7,7 @@
       "type": 2
     }
   },
-  "activeSectionIndex": 6,
+  "activeSectionIndex": 10,
   "defaultDrillFilterOtherVisuals": true,
   "slowDataSourceSettings": {
     "isCrossHighlightingDisabled": false,

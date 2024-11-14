@@ -1,0 +1,20 @@
+{
+  "name": "3937dd1a903093447d7d",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "width": 1280,
+        "height": 780,
+        "tabOrder": 3000
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "NUT Background",
+    "groupMode": 0
+  }
+}

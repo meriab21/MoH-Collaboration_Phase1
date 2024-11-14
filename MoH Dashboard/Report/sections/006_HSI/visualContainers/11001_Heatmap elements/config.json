@@ -1,0 +1,21 @@
+{
+  "name": "30f803f704a5cbfaf095",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "height": 458.97916925823267,
+        "width": 947.49605703596183,
+        "x": 199.77314259776446,
+        "y": 308.73487622367793,
+        "z": 1500,
+        "tabOrder": 11001
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "Heatmap elements",
+    "groupMode": 0,
+    "isHidden": true
+  }
+}

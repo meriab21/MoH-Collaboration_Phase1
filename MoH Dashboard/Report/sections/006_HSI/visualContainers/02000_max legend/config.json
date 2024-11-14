@@ -1,0 +1,22 @@
+{
+  "name": "9147fe327dc64942005d",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "height": 88.3054700899034,
+        "width": 216.92307692307691,
+        "x": 82.457729603979232,
+        "y": 368.655432948463,
+        "z": 4000,
+        "tabOrder": 2000
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "max legend",
+    "groupMode": 0,
+    "isHidden": false
+  },
+  "parentGroupName": "30f803f704a5cbfaf095"
+}

@@ -8,7 +8,7 @@
         "width": 403.63636363636363,
         "x": 112.72727272727272,
         "y": 294.5454545454545,
-        "z": 1000,
+        "z": 7812,
         "tabOrder": 1000
       }
     }
@@ -16,6 +16,6 @@
   "singleVisualGroup": {
     "displayName": "N-Secondary tab buttons",
     "groupMode": 0,
-    "isHidden": true
+    "isHidden": false
   }
 }

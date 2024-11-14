@@ -1,0 +1,29 @@
+{
+  "displayName": "NUT_National-PD_Piechart",
+  "name": "64c092bb80c9a192dfb2",
+  "explorationState": {
+    "version": "1.11",
+    "activeSection": "c8688cd3ecc9a31a3d59",
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "options": {
+    "targetVisualNames": [],
+    "suppressData": true
+  }
+}

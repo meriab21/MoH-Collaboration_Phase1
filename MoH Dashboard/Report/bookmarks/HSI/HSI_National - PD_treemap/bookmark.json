@@ -1,5 +1,5 @@
 {
-  "displayName": "HSI_National - PD_treemap",
+  "displayName": "HSI_National - PD_Treemap",
   "name": "2a1ad7e8a5b891e16964",
   "explorationState": {
     "version": "1.11",
@@ -23,7 +23,9 @@
     }
   },
   "options": {
-    "targetVisualNames": [],
+    "targetVisualNames": [
+      "6f02296ccc33e872f286"
+    ],
     "suppressData": true
   }
 }

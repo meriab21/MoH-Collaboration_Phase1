@@ -1,0 +1,30 @@
+{
+  "displayName": "HSI_National - PD_Piechart",
+  "name": "00a49d813c3a97de83d3",
+  "explorationState": {
+    "version": "1.11",
+    "activeSection": "4738d19f7b215f0fdb47",
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "options": {
+    "targetVisualNames": [
+      "ea329cee643c4e37a3d4"
+    ]
+  }
+}

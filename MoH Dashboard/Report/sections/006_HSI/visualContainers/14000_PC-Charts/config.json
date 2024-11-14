@@ -1,5 +1,5 @@
 {
-  "name": "66a19eeabd2c9f8b9bd5",
+  "name": "9ecfed94643464c341af",
   "layouts": [
     {
       "id": 0,
@@ -8,7 +8,7 @@
         "width": 1148.9626556016597,
         "x": 112,
         "y": 350,
-        "z": 4250,
+        "z": 2000,
         "tabOrder": 14000
       }
     }
@@ -16,6 +16,6 @@
   "singleVisualGroup": {
     "displayName": "PC-Charts",
     "groupMode": 0,
-    "isHidden": false
+    "isHidden": true
   }
 }

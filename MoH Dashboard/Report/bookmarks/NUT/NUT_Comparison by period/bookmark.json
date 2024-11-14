@@ -2,15 +2,31 @@
   "displayName": "NUT_Comparison by period",
   "name": "da5bfbb8b7b0ff721ee7",
   "explorationState": {
-    "version": "1.3",
+    "version": "1.11",
     "activeSection": "c8688cd3ecc9a31a3d59",
-    "objects": {}
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "options": {
     "targetVisualNames": [
-      "2f7470bdb05f82413dd5",
-      "cbbcbaecc1894ea882bb",
-      "2a3dd4fd217fcfb5fd3a"
-    ]
+      "2e767465dbbb17eeea55",
+      "8c7082c2f6ce2c3f9271"
+    ],
+    "suppressData": true
   }
 }
