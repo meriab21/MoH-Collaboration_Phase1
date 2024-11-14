@@ -1,0 +1,262 @@
+﻿table org_units
+
+	column id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: id
+
+		annotation SummarizationSetBy = Automatic
+
+	column level
+		dataType: int64
+		formatString: 0
+		summarizeBy: sum
+		sourceColumn: level
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column shortname
+		dataType: string
+		summarizeBy: none
+		sourceColumn: shortname
+
+		annotation SummarizationSetBy = Automatic
+
+	column code
+		dataType: string
+		summarizeBy: none
+		sourceColumn: code
+
+		annotation SummarizationSetBy = Automatic
+
+	column leaf
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		summarizeBy: none
+		sourceColumn: leaf
+
+		annotation SummarizationSetBy = Automatic
+
+	column path
+		dataType: string
+		summarizeBy: none
+		sourceColumn: path
+
+		annotation SummarizationSetBy = Automatic
+
+	column parentid
+		dataType: string
+		summarizeBy: none
+		sourceColumn: parentid
+
+		annotation SummarizationSetBy = Automatic
+
+	column latitude
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: latitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column longitude
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: longitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column created
+		dataType: dateTime
+		formatString: General Date
+		summarizeBy: none
+		sourceColumn: created
+
+		variation Variation
+			isDefault
+			relationship: c7446d9e-3f56-4157-8a2f-fb49bdf023bd
+			defaultHierarchy: LocalDateTable_e898ad55-1077-44b5-91c2-8075dccd29e2.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column openingdate
+		dataType: dateTime
+		formatString: General Date
+		summarizeBy: none
+		sourceColumn: openingdate
+
+		variation Variation
+			isDefault
+			relationship: 3e33ebf3-8a63-41ff-bd47-944f521b359a
+			defaultHierarchy: LocalDateTable_97cf06da-5328-4fd0-acd3-d7d7a79ae10c.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column closeddate
+		dataType: dateTime
+		formatString: General Date
+		summarizeBy: none
+		sourceColumn: closeddate
+
+		variation Variation
+			isDefault
+			relationship: aec4d155-74aa-4b9f-ac73-5fb7f9995e49
+			defaultHierarchy: LocalDateTable_c4da1d97-554d-4bd9-8b25-24d24f9e7459.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column lastupdated
+		dataType: dateTime
+		formatString: General Date
+		summarizeBy: none
+		sourceColumn: lastupdated
+
+		variation Variation
+			isDefault
+			relationship: 75d5d6a8-0906-4a6d-a897-355b2a6202c3
+			defaultHierarchy: LocalDateTable_9e9e8828-831f-48f0-8e66-aa4b523f5773.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column level1id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: level1id
+
+		annotation SummarizationSetBy = Automatic
+
+	column l1name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: l1name
+
+		annotation SummarizationSetBy = Automatic
+
+	column level2id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: level2id
+
+		annotation SummarizationSetBy = Automatic
+
+	column l2name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: l2name
+
+		annotation SummarizationSetBy = Automatic
+
+	column level3id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: level3id
+
+		annotation SummarizationSetBy = Automatic
+
+	column l3name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: l3name
+
+		annotation SummarizationSetBy = Automatic
+
+	column level4id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: level4id
+
+		annotation SummarizationSetBy = Automatic
+
+	column l4name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: l4name
+
+		annotation SummarizationSetBy = Automatic
+
+	column level5id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: level5id
+
+		annotation SummarizationSetBy = Automatic
+
+	column l5name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: l5name
+
+		annotation SummarizationSetBy = Automatic
+
+	column level6id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: level6id
+
+		annotation SummarizationSetBy = Automatic
+
+	column l6name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: l6name
+
+		annotation SummarizationSetBy = Automatic
+
+	column level7id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: level7id
+
+		annotation SummarizationSetBy = Automatic
+
+	column l7name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: l7name
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy 'Org unit hierachy'
+
+		level l1name
+			column: l1name
+
+		level l2name
+			column: l2name
+
+		level l3name
+			column: l3name
+
+		level l4name
+			column: l4name
+
+		level l5name
+			column: l5name
+
+		level l6name
+			column: l6name
+
+		level l7name
+			column: l7name
+
+	partition org_units = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("196.189.126.21", "mini_dw"),
+				    moh_org_units = Source{[Schema="moh",Item="org_units"]}[Data]
+				in
+				    moh_org_units
+
+	changedProperty = Name
+

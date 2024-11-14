@@ -1,0 +1,50 @@
+﻿table 'indicator param1'
+
+	column 'indicator param1'
+		dataType: string
+		summarizeBy: none
+		isDataTypeInferred
+		sourceColumn: [Value1]
+		sortByColumn: 'indicator param1 Order'
+
+		relatedColumnDetails
+			groupByColumn: 'indicator param1 Fields'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'indicator param1 Fields'
+		dataType: string
+		isHidden
+		summarizeBy: none
+		isDataTypeInferred
+		sourceColumn: [Value2]
+		sortByColumn: 'indicator param1 Order'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'indicator param1 Order'
+		dataType: int64
+		isHidden
+		formatString: 0
+		summarizeBy: sum
+		isDataTypeInferred
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'indicator param1' = calculated
+		mode: import
+		source =
+				{
+				    ("Indicator Target Values", NAMEOF('_measures'[Indicator Target Values]), 0),
+				    ("displayname", NAMEOF('indicators'[displayname]), 1)
+				}
+
+	annotation PBI_Id = eef448595a454b9cbae822aa6bfb8305
+

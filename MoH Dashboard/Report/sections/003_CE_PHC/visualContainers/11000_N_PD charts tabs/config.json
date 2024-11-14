@@ -1,0 +1,21 @@
+{
+  "name": "cd47b8ed44a07214bdae",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 1067.025159270057,
+        "y": 360,
+        "z": 6000,
+        "width": 131.32338844778536,
+        "height": 27.47867400928628,
+        "tabOrder": 11000
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "N_PD charts tabs",
+    "groupMode": 0,
+    "isHidden": false
+  }
+}

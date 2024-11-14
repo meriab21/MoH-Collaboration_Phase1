@@ -1,0 +1,20 @@
+{
+  "name": "8e56d4952ff3f3feecdf",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "height": 780,
+        "width": 1280,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "tabOrder": 0
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "Background",
+    "groupMode": 0
+  }
+}

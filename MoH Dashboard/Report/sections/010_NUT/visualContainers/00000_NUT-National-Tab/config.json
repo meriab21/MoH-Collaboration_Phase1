@@ -1,0 +1,21 @@
+{
+  "name": "2f7470bdb05f82413dd5",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "height": 22.75,
+        "width": 402,
+        "x": 113.5,
+        "y": 295.25,
+        "z": 2000,
+        "tabOrder": 0
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "NUT-National-Tab",
+    "groupMode": 0,
+    "isHidden": true
+  }
+}

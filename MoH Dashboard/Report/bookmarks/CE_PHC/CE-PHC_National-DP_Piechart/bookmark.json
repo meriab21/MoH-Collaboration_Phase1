@@ -1,0 +1,29 @@
+{
+  "displayName": "CE-PHC_National-DP_Piechart",
+  "name": "d5f30c1c2308ffc4493e",
+  "explorationState": {
+    "version": "1.11",
+    "activeSection": "2a7afc06a2407521a213",
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "options": {
+    "targetVisualNames": [],
+    "suppressData": true
+  }
+}

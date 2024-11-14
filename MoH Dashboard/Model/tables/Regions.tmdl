@@ -1,0 +1,33 @@
+﻿table Regions
+
+	column org_unit_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: org_unit_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Regions = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("196.189.126.21", "mini_dw"),
+				    moh_org_units = Source{[Schema="moh",Item="org_units"]}[Data],
+				    #"Removed Other Columns" = Table.SelectColumns(moh_org_units,{"level2id", "l2name"}),
+				    #"Removed Duplicates" = Table.Distinct(#"Removed Other Columns"),
+				    #"Removed Blank Rows" = Table.SelectRows(#"Removed Duplicates", each not List.IsEmpty(List.RemoveMatchingItems(Record.FieldValues(_), {"", null}))),
+				    #"Renamed Columns" = Table.RenameColumns(#"Removed Blank Rows",{{"level2id", "org_unit_id"}, {"l2name", "name"}})
+				in
+				    #"Renamed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

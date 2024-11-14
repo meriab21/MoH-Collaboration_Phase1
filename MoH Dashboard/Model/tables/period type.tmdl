@@ -1,0 +1,50 @@
+﻿table 'period type'
+
+	column 'period type'
+		dataType: string
+		summarizeBy: none
+		isDataTypeInferred
+		sourceColumn: [Value1]
+		sortByColumn: 'period type Order'
+
+		relatedColumnDetails
+			groupByColumn: 'period type Fields'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'period type Fields'
+		dataType: string
+		isHidden
+		summarizeBy: none
+		isDataTypeInferred
+		sourceColumn: [Value2]
+		sortByColumn: 'period type Order'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'period type Order'
+		dataType: int64
+		isHidden
+		formatString: 0
+		summarizeBy: sum
+		isDataTypeInferred
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'period type' = calculated
+		mode: import
+		source =
+				{
+				    ("Monthly", NAMEOF('periods'[eth_month_name]), 0),
+				    ("Quarterly", NAMEOF('periods'[eth_quarter]), 1)
+				}
+
+	annotation PBI_Id = 421b33f5a73546b2a44806f65b0b750f
+

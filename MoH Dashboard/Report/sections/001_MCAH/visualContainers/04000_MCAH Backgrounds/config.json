@@ -1,0 +1,20 @@
+{
+  "name": "7d5401fb159c8a779636",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "width": 1280.0414937759335,
+        "height": 780,
+        "tabOrder": 4000
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "MCAH Backgrounds",
+    "groupMode": 0
+  }
+}

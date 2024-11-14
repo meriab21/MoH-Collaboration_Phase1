@@ -1,0 +1,34 @@
+﻿table indicators_group
+
+	column indicator_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: indicator_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column sub_section
+		dataType: string
+		summarizeBy: none
+		sourceColumn: sub_section
+
+		annotation SummarizationSetBy = Automatic
+
+	column section
+		dataType: string
+		summarizeBy: none
+		sourceColumn: section
+
+		annotation SummarizationSetBy = Automatic
+
+	partition indicators_group = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("196.189.126.21", "mini_dw"),
+				    moh_indicators_group = Source{[Schema="moh",Item="indicators_group"]}[Data]
+				in
+				    moh_indicators_group
+
+	changedProperty = Name
+

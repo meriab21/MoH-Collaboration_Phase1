@@ -1,0 +1,20 @@
+{
+  "name": "e6a326c17d6a9a29dbc4",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "height": 780,
+        "width": 1280,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "tabOrder": 0
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "MS background",
+    "groupMode": 0
+  }
+}

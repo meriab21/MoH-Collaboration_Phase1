@@ -1,0 +1,31 @@
+{
+  "displayName": "MS_National_TP_Bar",
+  "name": "fd071ad18441c0fd13e9",
+  "explorationState": {
+    "version": "1.11",
+    "activeSection": "3848282d8dfe0d3838d0",
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "options": {
+    "targetVisualNames": [
+      "94b0bbbff3e2f8a67538"
+    ],
+    "suppressData": true
+  }
+}

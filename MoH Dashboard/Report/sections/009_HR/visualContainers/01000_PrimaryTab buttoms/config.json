@@ -1,0 +1,20 @@
+{
+  "name": "61a066d2e8673452f9f3",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 105,
+        "y": 76,
+        "z": 2000,
+        "width": 292,
+        "height": 23,
+        "tabOrder": 1000
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "PrimaryTab buttoms",
+    "groupMode": 0
+  }
+}

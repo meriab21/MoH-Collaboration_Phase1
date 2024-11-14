@@ -1,0 +1,45 @@
+{
+  "displayName": "CE-PHC_Geographical",
+  "name": "7c54e6d1ba5624eda8ae",
+  "explorationState": {
+    "version": "1.11",
+    "activeSection": "2a7afc06a2407521a213",
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "options": {
+    "targetVisualNames": [
+      "d4fc87fe9dd907deadf8",
+      "2dee048bf1c8111627fc",
+      "712cf48baf58c888cc4d",
+      "5644a11473bba5ade1e5",
+      "440798dd0caafbfeb949",
+      "d067c3833a1034d35949",
+      "11cd25d810ce052d9e46",
+      "ba01f983f515d0f37a6d",
+      "8ea5fa30fa7396aef38e",
+      "656d0c432b7a5fefe19a",
+      "f40c989c6230394ce38a",
+      "fc610f1bf8a320e0bf27",
+      "016a36831f7fab97e2a3",
+      "32a16d1672714ece6e5b",
+      "8bb29f6fd71db7bd593b"
+    ],
+    "suppressData": true
+  }
+}

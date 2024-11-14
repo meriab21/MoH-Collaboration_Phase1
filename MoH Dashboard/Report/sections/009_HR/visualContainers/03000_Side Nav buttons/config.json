@@ -1,0 +1,20 @@
+{
+  "name": "c63221359efc063007db",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "height": 407.30769230769226,
+        "width": 95,
+        "x": 9.615384615384615,
+        "y": 118.84615384615384,
+        "z": 1000,
+        "tabOrder": 3000
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "Side Nav buttons",
+    "groupMode": 0
+  }
+}

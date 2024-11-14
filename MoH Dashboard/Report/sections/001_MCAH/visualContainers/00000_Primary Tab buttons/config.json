@@ -1,0 +1,20 @@
+{
+  "name": "e35d97904e89b6abc5da",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "height": 23.07692307692308,
+        "width": 291.53846153846149,
+        "x": 115.38461538461539,
+        "y": 76.153846153846146,
+        "z": 4000,
+        "tabOrder": 0
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "Primary Tab buttons",
+    "groupMode": 0
+  }
+}

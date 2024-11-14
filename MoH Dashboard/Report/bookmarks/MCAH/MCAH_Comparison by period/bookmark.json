@@ -1,0 +1,30 @@
+{
+  "displayName": "MCAH_Comparison by period",
+  "name": "3f61d47de6fe9858ffc5",
+  "explorationState": {
+    "version": "1.11",
+    "activeSection": "cb243f911249e5c29cb4",
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "options": {
+    "targetVisualNames": [],
+    "suppressData": true,
+    "suppressDisplay": false
+  }
+}

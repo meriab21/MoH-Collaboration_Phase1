@@ -1,0 +1,34 @@
+{
+  "displayName": "MS_National-PD_Treemap",
+  "name": "8fb5004780bf7eb05ea6",
+  "explorationState": {
+    "version": "1.11",
+    "activeSection": "3848282d8dfe0d3838d0",
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "options": {
+    "targetVisualNames": [
+      "b3c5eeaa7bea7f4374d8",
+      "9b04862f927a2b780e38",
+      "592f27b0fa3490d6c7cc",
+      "ec72e859fc6483449687"
+    ],
+    "suppressData": true
+  }
+}

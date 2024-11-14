@@ -1,0 +1,32 @@
+﻿table DPC
+
+	column sub_section
+		dataType: string
+		summarizeBy: none
+		sourceColumn: sub_section
+
+		annotation SummarizationSetBy = Automatic
+
+	column section
+		dataType: string
+		summarizeBy: none
+		sourceColumn: section
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DPC = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("196.189.126.21", "mini_dw"),
+				    moh_indicators_group = Source{[Schema="moh",Item="indicators_group"]}[Data],
+				    #"Removed Other Columns" = Table.SelectColumns(moh_indicators_group,{"sub_section", "section"}),
+				    #"Removed Duplicates" = Table.Distinct(#"Removed Other Columns", {"section"}),
+				    #"Filtered Rows" = Table.SelectRows(#"Removed Duplicates", each ([section] = "DPC-Disease Prevention Control"))
+				in
+				    #"Filtered Rows"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

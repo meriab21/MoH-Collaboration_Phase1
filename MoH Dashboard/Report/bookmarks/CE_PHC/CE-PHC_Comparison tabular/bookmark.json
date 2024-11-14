@@ -1,0 +1,31 @@
+{
+  "displayName": "CE-PHC_Comparison tabular",
+  "name": "5b85d5e379fa5275768b",
+  "explorationState": {
+    "version": "1.11",
+    "activeSection": "2a7afc06a2407521a213",
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "options": {
+    "targetVisualNames": [
+      "dd9fcea8096c295362ee"
+    ],
+    "suppressData": true
+  }
+}

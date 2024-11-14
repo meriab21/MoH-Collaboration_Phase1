@@ -1,0 +1,344 @@
+{
+  "id": 0,
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "MCAH-National_TP5123951506101827.png",
+            "path": "MCAH-National_TP5123951506101827.png",
+            "type": 100
+          },
+          {
+            "name": "MCAH-National_PD29594269910410764.png",
+            "path": "MCAH-National_PD29594269910410764.png",
+            "type": 100
+          },
+          {
+            "name": "MCAH-Regonal_PC7670033537779364.png",
+            "path": "MCAH-Regonal_PC7670033537779364.png",
+            "type": 100
+          },
+          {
+            "name": "MCAH-Regonal-Perfroma46887194887892547.png",
+            "path": "MCAH-Regonal-Perfroma46887194887892547.png",
+            "type": 100
+          },
+          {
+            "name": "MCAH-Regonal-Table4221172437007399.png",
+            "path": "MCAH-Regonal-Table4221172437007399.png",
+            "type": 100
+          },
+          {
+            "name": "MCAH-Geographical9855533263004315.png",
+            "path": "MCAH-Geographical9855533263004315.png",
+            "type": 100
+          },
+          {
+            "name": "HSI-National_TP505178442759026.png",
+            "path": "HSI-National_TP505178442759026.png",
+            "type": 100
+          },
+          {
+            "name": "HSI-National-PD5940625287671908.png",
+            "path": "HSI-National-PD5940625287671908.png",
+            "type": 100
+          },
+          {
+            "name": "HSI-Regonal-Disaggregation5192749329138728.png",
+            "path": "HSI-Regonal-Disaggregation5192749329138728.png",
+            "type": 100
+          },
+          {
+            "name": "HSI-Regonal11418171898398266.png",
+            "path": "HSI-Regonal11418171898398266.png",
+            "type": 100
+          },
+          {
+            "name": "HSI-Regonal-Table4368555852857883.png",
+            "path": "HSI-Regonal-Table4368555852857883.png",
+            "type": 100
+          },
+          {
+            "name": "HSI-Geographical6512062807934695.png",
+            "path": "HSI-Geographical6512062807934695.png",
+            "type": 100
+          },
+          {
+            "name": "NUT-Geographical16763607267232494.png",
+            "path": "NUT-Geographical16763607267232494.png",
+            "type": 100
+          },
+          {
+            "name": "NUT-Regonal-Table45897358596051996.png",
+            "path": "NUT-Regonal-Table45897358596051996.png",
+            "type": 100
+          },
+          {
+            "name": "NUT-Regonal-Disaggregationt34591991896258545.png",
+            "path": "NUT-Regonal-Disaggregationt34591991896258545.png",
+            "type": 100
+          },
+          {
+            "name": "NUT-Regonal12533327243773584.png",
+            "path": "NUT-Regonal12533327243773584.png",
+            "type": 100
+          },
+          {
+            "name": "NUT-National_PD7275467625485545.png",
+            "path": "NUT-National_PD7275467625485545.png",
+            "type": 100
+          },
+          {
+            "name": "NuT-National_TP5567853612586859.png",
+            "path": "NuT-National_TP5567853612586859.png",
+            "type": 100
+          },
+          {
+            "name": "MS-National_TP8319985645243422.png",
+            "path": "MS-National_TP8319985645243422.png",
+            "type": 100
+          },
+          {
+            "name": "MS_National_PD8243384741178283.png",
+            "path": "MS_National_PD8243384741178283.png",
+            "type": 100
+          },
+          {
+            "name": "MS-Regonal15147501208536251.png",
+            "path": "MS-Regonal15147501208536251.png",
+            "type": 100
+          },
+          {
+            "name": "MS-Regonal-Disaggregation8777332331340111.png",
+            "path": "MS-Regonal-Disaggregation8777332331340111.png",
+            "type": 100
+          },
+          {
+            "name": "MS-Regonal-Table4981899802428864.png",
+            "path": "MS-Regonal-Table4981899802428864.png",
+            "type": 100
+          },
+          {
+            "name": "MS-Geographical4293560184549554.png",
+            "path": "MS-Geographical4293560184549554.png",
+            "type": 100
+          },
+          {
+            "name": "DPC-Geographical17838015050947176.png",
+            "path": "DPC-Geographical17838015050947176.png",
+            "type": 100
+          },
+          {
+            "name": "DPC-Regonal-Table04667096703552698.png",
+            "path": "DPC-Regonal-Table04667096703552698.png",
+            "type": 100
+          },
+          {
+            "name": "DPC-Regonal-Disaggregation07251261119006291.png",
+            "path": "DPC-Regonal-Disaggregation07251261119006291.png",
+            "type": 100
+          },
+          {
+            "name": "DPC-Regonal21070523877233294.png",
+            "path": "DPC-Regonal21070523877233294.png",
+            "type": 100
+          },
+          {
+            "name": "DPC-National-PD01828777030551687.png",
+            "path": "DPC-National-PD01828777030551687.png",
+            "type": 100
+          },
+          {
+            "name": "DPC-National_TP10945336517225646.png",
+            "path": "DPC-National_TP10945336517225646.png",
+            "type": 100
+          },
+          {
+            "name": "HIV-National-PD9728862542453722.png",
+            "path": "HIV-National-PD9728862542453722.png",
+            "type": 100
+          },
+          {
+            "name": "HIV-Regonal-Disaggregation9760081200225246.png",
+            "path": "HIV-Regonal-Disaggregation9760081200225246.png",
+            "type": 100
+          },
+          {
+            "name": "HIV-Regonal-Table_(1)7269477742567225.png",
+            "path": "HIV-Regonal-Table_(1)7269477742567225.png",
+            "type": 100
+          },
+          {
+            "name": "HIV-Geographical06642232055567043.png",
+            "path": "HIV-Geographical06642232055567043.png",
+            "type": 100
+          },
+          {
+            "name": "HIV-Regonal7109850622833576.png",
+            "path": "HIV-Regonal7109850622833576.png",
+            "type": 100
+          },
+          {
+            "name": "HIV-National_TP445566047614145.png",
+            "path": "HIV-National_TP445566047614145.png",
+            "type": 100
+          },
+          {
+            "name": "HR-National_TP8666622050927786.png",
+            "path": "HR-National_TP8666622050927786.png",
+            "type": 100
+          },
+          {
+            "name": "HR-National-PD04326977808991739.png",
+            "path": "HR-National-PD04326977808991739.png",
+            "type": 100
+          },
+          {
+            "name": "HR-Regonal2393000767762341.png",
+            "path": "HR-Regonal2393000767762341.png",
+            "type": 100
+          },
+          {
+            "name": "HR-Regonal-Disaggregation9762912630864078.png",
+            "path": "HR-Regonal-Disaggregation9762912630864078.png",
+            "type": 100
+          },
+          {
+            "name": "HR-Regonal-Table5556026842085018.png",
+            "path": "HR-Regonal-Table5556026842085018.png",
+            "type": 100
+          },
+          {
+            "name": "HR-Geographical8663373251794921.png",
+            "path": "HR-Geographical8663373251794921.png",
+            "type": 100
+          },
+          {
+            "name": "CE_PHC-National_PD7972313749199775.png",
+            "path": "CE_PHC-National_PD7972313749199775.png",
+            "type": 100
+          },
+          {
+            "name": "CE_PHC-National_TP7017362949175459.png",
+            "path": "CE_PHC-National_TP7017362949175459.png",
+            "type": 100
+          },
+          {
+            "name": "CE_PHC-Regional_TP3256473418848793.png",
+            "path": "CE_PHC-Regional_TP3256473418848793.png",
+            "type": 100
+          },
+          {
+            "name": "CE_PHC-Geographical2152932691422449.png",
+            "path": "CE_PHC-Geographical2152932691422449.png",
+            "type": 100
+          },
+          {
+            "name": "CE_PHC-Regional_Table20787407119270518.png",
+            "path": "CE_PHC-Regional_Table20787407119270518.png",
+            "type": 100
+          },
+          {
+            "name": "CE_PHC-Regional_Disaggregation05257181556399737.png",
+            "path": "CE_PHC-Regional_Disaggregation05257181556399737.png",
+            "type": 100
+          },
+          {
+            "name": "PMD_Regional_PD0012137912731160494.png",
+            "path": "PMD_Regional_PD0012137912731160494.png",
+            "type": 100
+          },
+          {
+            "name": "PMD_Region_TP5801836290783684.png",
+            "path": "PMD_Region_TP5801836290783684.png",
+            "type": 100
+          },
+          {
+            "name": "PMD_Region_TP-14662974406289193.png",
+            "path": "PMD_Region_TP-14662974406289193.png",
+            "type": 100
+          },
+          {
+            "name": "PMD__Geographical21565937406526947.png",
+            "path": "PMD__Geographical21565937406526947.png",
+            "type": 100
+          },
+          {
+            "name": "PMD_National_PD25068246678952266.png",
+            "path": "PMD_National_PD25068246678952266.png",
+            "type": 100
+          },
+          {
+            "name": "PMD_National_TP5956947976066229.png",
+            "path": "PMD_National_TP5956947976066229.png",
+            "type": 100
+          },
+          {
+            "name": "Supply_and_Demand_View7515943779192076.png",
+            "path": "Supply_and_Demand_View7515943779192076.png",
+            "type": 100
+          },
+          {
+            "name": "Supply_and_Demand_Comparison30088734363281255.png",
+            "path": "Supply_and_Demand_Comparison30088734363281255.png",
+            "type": 100
+          },
+          {
+            "name": "New_Color_legned23358387809277437.png",
+            "path": "New_Color_legned23358387809277437.png",
+            "type": 100
+          },
+          {
+            "name": "Over_view_29817854125082861.png",
+            "path": "Over_view_29817854125082861.png",
+            "type": 100
+          },
+          {
+            "name": "Ethio_14_regions8776234784272736.json",
+            "path": "Ethio_14_regions8776234784272736.json",
+            "type": 200
+          },
+          {
+            "name": "green30865285794062296.png",
+            "path": "green30865285794062296.png",
+            "type": 100
+          },
+          {
+            "name": "yellow2663085625114342.png",
+            "path": "yellow2663085625114342.png",
+            "type": 100
+          },
+          {
+            "name": "red28567579638110299.png",
+            "path": "red28567579638110299.png",
+            "type": 100
+          },
+          {
+            "name": "Ethio_14_regions6417111252331995.json",
+            "path": "Ethio_14_regions6417111252331995.json",
+            "type": 200
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    }
+  ]
+}

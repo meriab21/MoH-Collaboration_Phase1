@@ -1,0 +1,29 @@
+{
+  "displayName": "PMD_Comparsion by region",
+  "name": "0ce23a84ba236a990638",
+  "explorationState": {
+    "version": "1.11",
+    "activeSection": "43eb7ca9f63cfd481e22",
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "options": {
+    "targetVisualNames": [],
+    "suppressData": true
+  }
+}

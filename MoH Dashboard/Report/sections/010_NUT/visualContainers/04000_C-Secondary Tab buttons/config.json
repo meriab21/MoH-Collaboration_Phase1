@@ -1,0 +1,21 @@
+{
+  "name": "25fa96ecde4312976ee0",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "height": 22.307692307692321,
+        "width": 249.23076923076923,
+        "x": 112.69230769230769,
+        "y": 295.76923076923077,
+        "z": 3000,
+        "tabOrder": 4000
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "C-Secondary Tab buttons",
+    "groupMode": 0,
+    "isHidden": false
+  }
+}

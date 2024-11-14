@@ -1,0 +1,29 @@
+{
+  "displayName": "CE-PHC_Comparison by region",
+  "name": "56db54a623dacc865a7e",
+  "explorationState": {
+    "version": "1.11",
+    "activeSection": "2a7afc06a2407521a213",
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "options": {
+    "targetVisualNames": [],
+    "suppressData": true
+  }
+}

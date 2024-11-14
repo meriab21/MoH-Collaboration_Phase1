@@ -1,0 +1,55 @@
+﻿table indicator_plan_items
+
+	column indicator_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: indicator_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column indicator_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: indicator_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column baseline_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: baseline_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column baseline_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: baseline_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column target_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: target_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column target_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: target_name
+
+		annotation SummarizationSetBy = Automatic
+
+	partition indicator_plan_items = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("196.189.126.21", "mini_dw"),
+				    moh_indicator_plan_items = Source{[Schema="moh",Item="indicator_plan_items"]}[Data]
+				in
+				    moh_indicator_plan_items
+
+	changedProperty = Name
+

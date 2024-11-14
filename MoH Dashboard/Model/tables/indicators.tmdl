@@ -1,0 +1,158 @@
+﻿table indicators
+
+	column id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: id
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column displayname
+		dataType: string
+		summarizeBy: none
+		sourceColumn: displayname
+
+		annotation SummarizationSetBy = Automatic
+
+	column shortname
+		dataType: string
+		summarizeBy: none
+		sourceColumn: shortname
+
+		annotation SummarizationSetBy = Automatic
+
+	column displayshortname
+		dataType: string
+		summarizeBy: none
+		sourceColumn: displayshortname
+
+		annotation SummarizationSetBy = Automatic
+
+	column description
+		dataType: string
+		summarizeBy: none
+		sourceColumn: description
+
+		annotation SummarizationSetBy = Automatic
+
+	column displaydescription
+		dataType: string
+		summarizeBy: none
+		sourceColumn: displaydescription
+
+		annotation SummarizationSetBy = Automatic
+
+	column indicatortype
+		dataType: string
+		summarizeBy: none
+		sourceColumn: indicatortype
+
+		annotation SummarizationSetBy = Automatic
+
+	column numerator
+		dataType: string
+		summarizeBy: none
+		sourceColumn: numerator
+
+		annotation SummarizationSetBy = Automatic
+
+	column numeratordescription
+		dataType: string
+		summarizeBy: none
+		sourceColumn: numeratordescription
+
+		annotation SummarizationSetBy = Automatic
+
+	column displaynumeratordescription
+		dataType: string
+		summarizeBy: none
+		sourceColumn: displaynumeratordescription
+
+		annotation SummarizationSetBy = Automatic
+
+	column denominator
+		dataType: string
+		summarizeBy: none
+		sourceColumn: denominator
+
+		annotation SummarizationSetBy = Automatic
+
+	column denominatordescription
+		dataType: string
+		summarizeBy: none
+		sourceColumn: denominatordescription
+
+		annotation SummarizationSetBy = Automatic
+
+	column displaydenominatordescription
+		dataType: string
+		summarizeBy: none
+		sourceColumn: displaydenominatordescription
+
+		annotation SummarizationSetBy = Automatic
+
+	column indicatorgroups
+		dataType: string
+		summarizeBy: none
+		sourceColumn: indicatorgroups
+
+		annotation SummarizationSetBy = Automatic
+
+	column sub_section
+		dataType: string
+		summarizeBy: none
+		sourceColumn: sub_section
+
+		annotation SummarizationSetBy = Automatic
+
+	column section
+		dataType: string
+		summarizeBy: none
+		sourceColumn: section
+
+		annotation SummarizationSetBy = Automatic
+
+	column created
+		dataType: dateTime
+		formatString: General Date
+		summarizeBy: none
+		sourceColumn: created
+
+		variation Variation
+			isDefault
+			relationship: 40c47c02-fe38-415f-8039-33a72811c4c8
+			defaultHierarchy: LocalDateTable_b17e1433-8782-4a0b-b534-4c529e5f5b0d.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column lastupdated
+		dataType: dateTime
+		formatString: General Date
+		summarizeBy: none
+		sourceColumn: lastupdated
+
+		variation Variation
+			isDefault
+			relationship: 9e0ce0d7-f457-4275-bb11-54f11b3de8a7
+			defaultHierarchy: LocalDateTable_13dbbf34-7799-489d-8bb4-a2ad021dbb21.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	partition indicators = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("196.189.126.21", "mini_dw"),
+				    moh_indicators = Source{[Schema="moh",Item="indicators"]}[Data]
+				in
+				    moh_indicators
+
+	changedProperty = Name
+

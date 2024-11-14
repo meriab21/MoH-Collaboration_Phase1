@@ -1,0 +1,32 @@
+{
+  "displayName": "MCAH_Comparison by region",
+  "name": "642d322bd5aed0bf4ae0",
+  "explorationState": {
+    "version": "1.11",
+    "activeSection": "cb243f911249e5c29cb4",
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "options": {
+    "targetVisualNames": [
+      "51846b73419e92b82ab2"
+    ],
+    "suppressData": true,
+    "suppressDisplay": false
+  }
+}

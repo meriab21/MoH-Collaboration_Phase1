@@ -1,0 +1,20 @@
+{
+  "name": "757db1ddb024fa8e0dd6",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "height": 410,
+        "width": 1148.9626556016597,
+        "x": 112,
+        "y": 350,
+        "z": 6500,
+        "tabOrder": 10008
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "PC-Charts",
+    "groupMode": 0
+  }
+}

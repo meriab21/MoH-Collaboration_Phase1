@@ -1,0 +1,21 @@
+{
+  "name": "c4de681d224d9743c7cc",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "height": 23,
+        "width": 394.70588235294122,
+        "x": 121.76470588235294,
+        "y": 297.05882352941177,
+        "z": 2000,
+        "tabOrder": 1000
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "N-Secondary Tab buttons",
+    "groupMode": 0,
+    "isHidden": true
+  }
+}
