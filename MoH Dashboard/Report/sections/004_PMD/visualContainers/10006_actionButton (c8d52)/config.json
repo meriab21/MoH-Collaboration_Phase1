@@ -132,13 +132,6 @@
                 }
               }
             },
-            "width": {
-              "expr": {
-                "Literal": {
-                  "Value": "1D"
-                }
-              }
-            },
             "radius": {
               "expr": {
                 "Literal": {

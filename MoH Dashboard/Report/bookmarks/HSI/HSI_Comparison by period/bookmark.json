@@ -2,12 +2,30 @@
   "displayName": "HSI_Comparison by period",
   "name": "eb0bb067fc929fa6c129",
   "explorationState": {
-    "version": "1.3",
+    "version": "1.11",
     "activeSection": "4738d19f7b215f0fdb47",
-    "objects": {}
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "options": {
-    "targetVisualNames": [],
+    "targetVisualNames": [
+      "230893ed195443870e0c"
+    ],
     "suppressData": true
   }
 }

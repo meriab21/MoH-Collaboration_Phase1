@@ -8,7 +8,7 @@
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-annotation PBIDesktopVersion = 2.137.1102.0 (24.10)
+annotation PBIDesktopVersion = 2.124.1554.0 (23.12)
 
 annotation PBI_QueryOrder = ["indicator_values","indicators","org_units","indicator_plan_items","indicators_group","Regions","_measures","MCAH","DPC","CE-PHC","HIV","MS","NUT","PMD","HR","periods"]
 
