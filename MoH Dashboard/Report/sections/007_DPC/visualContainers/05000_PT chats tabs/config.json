@@ -1,0 +1,21 @@
+{
+  "name": "2afb8b3c8bfd0413e707",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "height": 397.5,
+        "width": 1147.5,
+        "x": 115,
+        "y": 360,
+        "z": 7000,
+        "tabOrder": 5000
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "PT chats tabs",
+    "groupMode": 0,
+    "isHidden": true
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "name": "f0c8aa991db5f7d5261e",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 581.88568932705209,
+        "y": 0,
+        "z": 2000,
+        "width": 565.89473684210532,
+        "height": 55.819548872180448,
+        "tabOrder": 2000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "slicer",
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "org_units.Org unit hierachy.l1name",
+          "active": true
+        },
+        {
+          "queryRef": "org_units.Org unit hierachy.l2name"
+        },
+        {
+          "queryRef": "org_units.Org unit hierachy.l3name"
+        },
+        {
+          "queryRef": "org_units.Org unit hierachy.l4name"
+        },
+        {
+          "queryRef": "org_units.Org unit hierachy.l5name"
+        },
+        {
+          "queryRef": "org_units.Org unit hierachy.l6name"
+        },
+        {
+          "queryRef": "org_units.Org unit hierachy.l7name"
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "o",
+          "Entity": "org_units",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "o"
+                  }
+                },
+                "Hierarchy": "Org unit hierachy"
+              }
+            },
+            "Level": "l1name"
+          },
+          "Name": "org_units.Org unit hierachy.l1name",
+          "NativeReferenceName": "Org unit hierachy l1name"
+        },
+        {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "o"
+                  }
+                },
+                "Hierarchy": "Org unit hierachy"
+              }
+            },
+            "Level": "l2name"
+          },
+          "Name": "org_units.Org unit hierachy.l2name",
+          "NativeReferenceName": "Org unit hierachy l2name"
+        },
+        {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "o"
+                  }
+                },
+                "Hierarchy": "Org unit hierachy"
+              }
+            },
+            "Level": "l3name"
+          },
+          "Name": "org_units.Org unit hierachy.l3name",
+          "NativeReferenceName": "Org unit hierachy l3name"
+        },
+        {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "o"
+                  }
+                },
+                "Hierarchy": "Org unit hierachy"
+              }
+            },
+            "Level": "l4name"
+          },
+          "Name": "org_units.Org unit hierachy.l4name",
+          "NativeReferenceName": "Org unit hierachy l4name"
+        },
+        {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "o"
+                  }
+                },
+                "Hierarchy": "Org unit hierachy"
+              }
+            },
+            "Level": "l5name"
+          },
+          "Name": "org_units.Org unit hierachy.l5name",
+          "NativeReferenceName": "Org unit hierachy l5name"
+        },
+        {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "o"
+                  }
+                },
+                "Hierarchy": "Org unit hierachy"
+              }
+            },
+            "Level": "l6name"
+          },
+          "Name": "org_units.Org unit hierachy.l6name",
+          "NativeReferenceName": "Org unit hierachy l6name"
+        },
+        {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "o"
+                  }
+                },
+                "Hierarchy": "Org unit hierachy"
+              }
+            },
+            "Level": "l7name"
+          },
+          "Name": "org_units.Org unit hierachy.l7name",
+          "NativeReferenceName": "Org unit hierachy l7name"
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "header": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Org Units'"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {}
+        }
+      ]
+    },
+    "vcObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'org unit slicer'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "parentGroupName": "7fd14a5d3239821d6ee1"
+}

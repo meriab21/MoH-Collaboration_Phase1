@@ -16,7 +16,7 @@
   "singleVisualGroup": {
     "displayName": "Pie chart selected",
     "groupMode": 0,
-    "isHidden": true
+    "isHidden": false
   },
   "parentGroupName": "fa694be255a45dc0ab17"
 }

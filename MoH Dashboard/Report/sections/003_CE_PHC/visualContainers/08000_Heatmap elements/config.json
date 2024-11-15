@@ -16,6 +16,6 @@
   "singleVisualGroup": {
     "displayName": "Heatmap elements",
     "groupMode": 0,
-    "isHidden": false
+    "isHidden": true
   }
 }

@@ -1,0 +1,36 @@
+{
+  "displayName": "DPC_National-TP_Bar",
+  "name": "c47ccac75f0e557b19bc",
+  "explorationState": {
+    "version": "1.11",
+    "activeSection": "78e7dfb20fed33d6056f",
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "options": {
+    "targetVisualNames": [
+      "c73586075903ab2d4e10",
+      "12e2a9f57710afa58357",
+      "04fa318fc9047dc00b7b",
+      "f855fa8a94c0afe217dd",
+      "a3fd7c2b684367f98ff0",
+      "2c69ce782b86dfe1d03c",
+      "795ffb33eaf9d7807aac"
+    ]
+  }
+}

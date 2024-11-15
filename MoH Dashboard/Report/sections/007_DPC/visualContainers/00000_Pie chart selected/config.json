@@ -1,0 +1,22 @@
+{
+  "name": "1cbe37e47cb1bf1b8e1c",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "height": 27.47867400928628,
+        "width": 131.32338844778525,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "tabOrder": 0
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "Pie chart selected",
+    "groupMode": 0,
+    "isHidden": false
+  },
+  "parentGroupName": "be97761c559c2b2011ca"
+}
