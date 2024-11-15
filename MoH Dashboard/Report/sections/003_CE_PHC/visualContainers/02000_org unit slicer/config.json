@@ -172,6 +172,9 @@
         }
       ]
     },
+    "display": {
+      "mode": "hidden"
+    },
     "drillFilterOtherVisuals": true,
     "objects": {
       "data": [

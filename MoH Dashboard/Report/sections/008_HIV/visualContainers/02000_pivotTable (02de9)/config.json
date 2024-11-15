@@ -253,6 +253,9 @@
         "displayName": "Performance"
       }
     },
+    "display": {
+      "mode": "hidden"
+    },
     "drillFilterOtherVisuals": true,
     "objects": {
       "total": [

@@ -47,6 +47,9 @@
         }
       ]
     },
+    "display": {
+      "mode": "hidden"
+    },
     "drillFilterOtherVisuals": true,
     "objects": {
       "data": [
@@ -136,7 +139,15 @@
       ],
       "border": [
         {
-          "properties": {}
+          "properties": {
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            }
+          }
         }
       ]
     }

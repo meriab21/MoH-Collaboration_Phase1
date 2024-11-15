@@ -6,7 +6,7 @@
       "position": {
         "x": 0,
         "y": 0,
-        "z": 4000,
+        "z": 1000,
         "width": 1280,
         "height": 780,
         "tabOrder": 4000
@@ -152,7 +152,15 @@
       ],
       "border": [
         {
-          "properties": {}
+          "properties": {
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            }
+          }
         }
       ],
       "visualHeader": [

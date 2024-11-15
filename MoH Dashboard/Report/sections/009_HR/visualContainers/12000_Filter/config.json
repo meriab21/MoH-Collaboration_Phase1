@@ -1,0 +1,21 @@
+{
+  "name": "44a98c0032a9b2a027a5",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "height": 252.24771472249088,
+        "width": 1147.7804261691574,
+        "x": 114.89626556016597,
+        "y": 123.18796992481202,
+        "z": 8000,
+        "tabOrder": 12000
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "Filter",
+    "groupMode": 0,
+    "isHidden": false
+  }
+}

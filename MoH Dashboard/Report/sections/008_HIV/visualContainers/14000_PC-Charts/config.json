@@ -16,6 +16,6 @@
   "singleVisualGroup": {
     "displayName": "PC-Charts",
     "groupMode": 0,
-    "isHidden": true
+    "isHidden": false
   }
 }

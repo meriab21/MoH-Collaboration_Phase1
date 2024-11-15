@@ -16,6 +16,6 @@
   "singleVisualGroup": {
     "displayName": "C-Secondary Tab buttons",
     "groupMode": 0,
-    "isHidden": false
+    "isHidden": true
   }
 }
