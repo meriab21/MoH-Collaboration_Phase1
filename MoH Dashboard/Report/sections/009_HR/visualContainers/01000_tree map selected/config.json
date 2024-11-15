@@ -1,0 +1,22 @@
+{
+  "name": "281707f8e6f34f37f6d8",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "height": 26,
+        "width": 130.92350362613169,
+        "x": 0.39988482165366568,
+        "y": 0,
+        "z": 1000,
+        "tabOrder": 1000
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "tree map selected",
+    "groupMode": 0,
+    "isHidden": true
+  },
+  "parentGroupName": "fe97544a73ceb628c860"
+}

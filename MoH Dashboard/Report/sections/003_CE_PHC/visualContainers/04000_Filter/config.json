@@ -16,6 +16,6 @@
   "singleVisualGroup": {
     "displayName": "Filter",
     "groupMode": 0,
-    "isHidden": true
+    "isHidden": false
   }
 }

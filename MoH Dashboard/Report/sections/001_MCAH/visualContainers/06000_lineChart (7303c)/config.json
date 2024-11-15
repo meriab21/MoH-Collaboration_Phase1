@@ -92,6 +92,9 @@
         "displayName": "Monthly"
       }
     },
+    "display": {
+      "mode": "hidden"
+    },
     "drillFilterOtherVisuals": true,
     "objects": {
       "categoryAxis": [
@@ -270,6 +273,13 @@
               "expr": {
                 "Literal": {
                   "Value": "10D"
+                }
+              }
+            },
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
                 }
               }
             }

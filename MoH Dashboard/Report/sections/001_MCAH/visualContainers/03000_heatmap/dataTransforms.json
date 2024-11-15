@@ -1,0 +1,229 @@
+{
+  "objects": {
+    "shape": [
+      {
+        "properties": {
+          "map": {
+            "geoJson": {
+              "type": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'packaged'"
+                  }
+                }
+              },
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Ethio 14 regions.json'"
+                  }
+                }
+              },
+              "content": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "Ethio_14_regions8776234784272736.json"
+                  }
+                }
+              }
+            }
+          },
+          "projectionEnum": {
+            "expr": {
+              "Literal": {
+                "Value": "'equirectangular'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "dataPoint": [
+      {
+        "properties": {
+          "fillRule": {
+            "linearGradient3": {
+              "min": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#920005'"
+                    }
+                  }
+                }
+              },
+              "mid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#F4B300'"
+                    }
+                  }
+                },
+                "value": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "0.5D"
+                    }
+                  }
+                }
+              },
+              "max": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#63901B'"
+                    }
+                  }
+                },
+                "value": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "1D"
+                    }
+                  }
+                }
+              },
+              "nullColoringStrategy": {
+                "strategy": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'asZero'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "projectionOrdering": {
+    "Value": [
+      0
+    ],
+    "Tooltips": [
+      1
+    ],
+    "Category": [
+      2
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "performance_normalization",
+        "Name": "_measures.performance_normalization",
+        "Type": 1
+      },
+      {
+        "Restatement": "Indicator Performance Values",
+        "Name": "_measures.Indicator Performance Values",
+        "Type": 1
+      },
+      {
+        "Restatement": "org_unit_id",
+        "Name": "Regions.org_unit_id",
+        "Type": 2048
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Value",
+          "Projection": 0,
+          "isActive": false
+        },
+        {
+          "Name": "Tooltips",
+          "Projection": 1,
+          "isActive": false
+        },
+        {
+          "Name": "Category",
+          "Projection": 2,
+          "isActive": false
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "performance_normalization",
+      "queryName": "_measures.performance_normalization",
+      "roles": {
+        "Value": true
+      },
+      "sort": 2,
+      "sortOrder": 0,
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Measure": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "_measures"
+            }
+          },
+          "Property": "performance_normalization"
+        }
+      },
+      "relatedObjects": {
+        "dataPoint": {
+          "fillRule": [
+            null
+          ]
+        }
+      }
+    },
+    {
+      "displayName": "Indicator Performance Values",
+      "queryName": "_measures.Indicator Performance Values",
+      "roles": {
+        "Tooltips": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Measure": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "_measures"
+            }
+          },
+          "Property": "Indicator Performance Values"
+        }
+      }
+    },
+    {
+      "displayName": "org_unit_id",
+      "queryName": "Regions.org_unit_id",
+      "roles": {
+        "Category": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "Regions"
+            }
+          },
+          "Property": "org_unit_id"
+        }
+      }
+    }
+  ]
+}

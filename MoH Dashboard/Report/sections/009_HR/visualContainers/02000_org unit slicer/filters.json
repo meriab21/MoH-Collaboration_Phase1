@@ -1,0 +1,44 @@
+[
+  {
+    "name": "93a0199cf17b773de3dc",
+    "expression": {
+      "HierarchyLevel": {
+        "Expression": {
+          "Hierarchy": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "org_units"
+              }
+            },
+            "Hierarchy": "Org unit hierachy"
+          }
+        },
+        "Level": "l1name"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": true
+  },
+  {
+    "name": "61f8d72314751f71ab15",
+    "expression": {
+      "HierarchyLevel": {
+        "Expression": {
+          "Hierarchy": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "org_units"
+              }
+            },
+            "Hierarchy": "Org unit hierachy"
+          }
+        },
+        "Level": "l3name"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": true
+  }
+]

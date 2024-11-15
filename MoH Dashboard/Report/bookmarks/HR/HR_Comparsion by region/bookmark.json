@@ -2,12 +2,33 @@
   "displayName": "HR_Comparsion by region",
   "name": "61a5eaa49b76df9f3eee",
   "explorationState": {
-    "version": "1.3",
+    "version": "1.11",
     "activeSection": "3f07365d57d0d6a44021",
-    "objects": {}
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "options": {
-    "targetVisualNames": [],
+    "targetVisualNames": [
+      "61a066d2e8673452f9f3",
+      "db16610eac7fc35001aa",
+      "8151598276359e39b7c1",
+      "58d4bdd65d19d443bb5e"
+    ],
     "suppressData": true
   }
 }

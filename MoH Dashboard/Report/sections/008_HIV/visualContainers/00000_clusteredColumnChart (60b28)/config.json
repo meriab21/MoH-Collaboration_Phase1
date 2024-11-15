@@ -110,6 +110,9 @@
         "displayName": "Target"
       }
     },
+    "display": {
+      "mode": "hidden"
+    },
     "drillFilterOtherVisuals": true,
     "hasDefaultSort": true,
     "objects": {
