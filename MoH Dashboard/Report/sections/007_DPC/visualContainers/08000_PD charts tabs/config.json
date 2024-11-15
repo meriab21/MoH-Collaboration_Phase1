@@ -1,0 +1,21 @@
+{
+  "name": "be97761c559c2b2011ca",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 1067.025159270057,
+        "y": 360,
+        "z": 6000,
+        "width": 131.32338844778536,
+        "height": 27.47867400928628,
+        "tabOrder": 8000
+      }
+    }
+  ],
+  "singleVisualGroup": {
+    "displayName": "PD charts tabs",
+    "groupMode": 0,
+    "isHidden": false
+  }
+}

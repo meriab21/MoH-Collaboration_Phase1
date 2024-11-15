@@ -1,0 +1,273 @@
+{
+  "objects": {
+    "valueAxis": [
+      {
+        "properties": {
+          "showAxisTitle": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "legend": [
+      {
+        "properties": {
+          "showTitle": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "labels": [
+      {
+        "properties": {
+          "show": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "labelOrientation": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          },
+          "enableBackground": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "categoryAxis": [
+      {
+        "properties": {
+          "showAxisTitle": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "projectionOrdering": {
+    "Category": [
+      0
+    ],
+    "Y": [
+      2,
+      1,
+      3
+    ]
+  },
+  "projectionActiveItems": {
+    "Category": [
+      {
+        "queryRef": "Regions.name",
+        "suppressConcat": false
+      }
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "name",
+        "Name": "Regions.name",
+        "Type": 2048
+      },
+      {
+        "Restatement": "Performance",
+        "Name": "_measures.Indicator Performance Values",
+        "Type": 1
+      },
+      {
+        "Restatement": "Baseline",
+        "Name": "_measures.Indicator Baseline Values",
+        "Type": 1
+      },
+      {
+        "Restatement": "Target",
+        "Name": "_measures.Indicator Target Values",
+        "Type": 1
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Category",
+          "Projection": 0,
+          "isActive": true
+        },
+        {
+          "Name": "Y",
+          "Projection": 2,
+          "isActive": false
+        },
+        {
+          "Name": "Y",
+          "Projection": 1,
+          "isActive": false
+        },
+        {
+          "Name": "Y",
+          "Projection": 3,
+          "isActive": false
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "name",
+      "queryName": "Regions.name",
+      "roles": {
+        "Category": true
+      },
+      "sort": 1,
+      "sortOrder": 0,
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "Regions"
+            }
+          },
+          "Property": "name"
+        }
+      }
+    },
+    {
+      "displayName": "Performance",
+      "queryName": "_measures.Indicator Performance Values",
+      "roles": {
+        "Y": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Measure": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "_measures"
+            }
+          },
+          "Property": "Indicator Performance Values"
+        }
+      }
+    },
+    {
+      "displayName": "Baseline",
+      "queryName": "_measures.Indicator Baseline Values",
+      "roles": {
+        "Y": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Measure": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "_measures"
+            }
+          },
+          "Property": "Indicator Baseline Values"
+        }
+      }
+    },
+    {
+      "displayName": "Target",
+      "queryName": "_measures.Indicator Target Values",
+      "roles": {
+        "Y": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Measure": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "_measures"
+            }
+          },
+          "Property": "Indicator Target Values"
+        }
+      }
+    },
+    {
+      "displayName": "Display cards",
+      "queryName": "_measures.Display cards",
+      "roles": {},
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Measure": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "_measures"
+            }
+          },
+          "Property": "Display cards"
+        }
+      },
+      "relatedObjects": {
+        "title": {
+          "text": [
+            null
+          ]
+        }
+      }
+    }
+  ]
+}

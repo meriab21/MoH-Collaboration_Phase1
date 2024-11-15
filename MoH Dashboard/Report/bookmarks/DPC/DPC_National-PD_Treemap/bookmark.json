@@ -1,0 +1,28 @@
+{
+  "displayName": "DPC_National-PD_Treemap",
+  "name": "db5af034cefc948d1ac6",
+  "explorationState": {
+    "version": "1.11",
+    "activeSection": "78e7dfb20fed33d6056f",
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "options": {
+    "targetVisualNames": []
+  }
+}

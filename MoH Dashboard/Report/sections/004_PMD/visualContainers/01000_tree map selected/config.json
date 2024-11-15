@@ -16,7 +16,7 @@
   "singleVisualGroup": {
     "displayName": "tree map selected",
     "groupMode": 0,
-    "isHidden": false
+    "isHidden": true
   },
   "parentGroupName": "fa694be255a45dc0ab17"
 }

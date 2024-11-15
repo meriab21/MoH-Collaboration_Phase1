@@ -2,12 +2,30 @@
   "displayName": "DPC_Comparsion by period",
   "name": "2bac33ce38068c278595",
   "explorationState": {
-    "version": "1.3",
+    "version": "1.11",
     "activeSection": "78e7dfb20fed33d6056f",
-    "objects": {}
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "options": {
-    "targetVisualNames": [],
+    "targetVisualNames": [
+      "fc81b2e76e69bd419a34"
+    ],
     "suppressData": true
   }
 }
